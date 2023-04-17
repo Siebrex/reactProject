@@ -27,3 +27,5 @@ function ExpenseItem(props) {
 export default ExpenseItem;
 
 /* nao estamos defininod os valores dentro da funcao, esta vindo "de fora", do app.js, por meio do props e atributos.*/ 
+/*Colocamos um botao para criar um evento Eventlistener, no caso onclick. Deve criar uma nova funcao para esse evento de clicar*/
+/*useState- variavel que ira chamar uma funçao do react novamente. deve criar um array com dois valores(o valor anterior e o valor para qual quer alterar.*/
