@@ -1,6 +1,6 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
   const expenses = [
     { id: "e1", title: "Aluguel", amount: 500.0, date: new Date(2023, 4, 10) },
     { id: "e2", title: "Energia", amount: 80.0, date: new Date(2023, 2, 12) },
@@ -31,3 +31,5 @@ export default App;
 /* O const expenses sera um array que sesu itens serao objetos(tudo de javascript)*/
 
 /* ira adicionar atributos, ex: title,  nos 'exprenseitem , para criar os 'props' e, assim, conseguir os dados de fora e nao ja codificados.*/
+
+/*Se voce quiser podera no lugar da function, colocar uma arrow function por meio de const*/
