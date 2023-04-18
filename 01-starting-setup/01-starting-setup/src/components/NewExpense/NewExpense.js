@@ -2,9 +2,17 @@ import './NewExpense.css';
 import './ExpenseForm'
 import ExpenseForm from './ExpenseForm';
 
-function NewExpense(params) {
+function NewExpense(props) {
+    function NewExpenseData(primieraExpenseData) {
+        const expenseData ={
+             ...primieraExpenseData,
+             id:Math.random().toString()
+        };
+       props.onAddExpense(expenseData)
+    }
+
     return <div className= "new-expense">
-        <ExpenseForm></ExpenseForm>
+        <ExpenseForm onNewExpenseData= {NewExpenseData}/>
     </div>
 }
 

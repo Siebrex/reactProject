@@ -14,9 +14,14 @@ const App = () => {
     },
   ];
 
+  function addExpense(expense) {
+    console.log('in app.js');
+    console.log(expense);
+  }
+
   return (
     <div>
-      <NewExpense/>
+      <NewExpense onAddExpense={addExpense} />
       <Expenses items={expenses} />
     </div>
   );
