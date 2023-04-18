@@ -36,7 +36,31 @@
     padding: 0.5rem; /*padding dentro do border*/
     border-radius: 12px;
   }
+
+  .botao{
+    font-size:1rem;
+    color:white;
+    background-color:#40005d ;
+    margin-left: 0.5cm;
+    border: 1px solid white;
+    padding: 0.1cm;
+    border-radius: 8px;
+  }
   
+  button:hover,
+  button:active {
+    background-color: #883faa;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+
+
+
+
+
   @media (min-width: 580px) {
     .expense-item__description {
       flex-direction: row;

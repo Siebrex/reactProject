@@ -19,7 +19,7 @@ function ExpenseItem(props) {
         <h2>{title}</h2> 
         <div className="expense-item__price" >R${props.amount}</div>
       </div>
-      <button onClick={BotaoClicar} >Change Titlle</button>
+      <button onClick={BotaoClicar} className="botao">Change Titlle</button>
     </Card>
   );
 }
