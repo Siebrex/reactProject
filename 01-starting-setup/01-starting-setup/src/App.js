@@ -17,7 +17,7 @@ const App = () => {
   function addExpense(expense) {
     console.log('in app.js');
     console.log(expense);
-  }
+  } //function para passar de filho para pai 
 
   return (
     <div>

@@ -3,9 +3,9 @@ import './ExpenseForm'
 import ExpenseForm from './ExpenseForm';
 
 function NewExpense(props) {
-    function NewExpenseData(primieraExpenseData) {
+    function NewExpenseData(primeiraExpenseData) {
         const expenseData ={
-             ...primieraExpenseData,
+             ...primeiraExpenseData,
              id:Math.random().toString()
         };
        props.onAddExpense(expenseData)
